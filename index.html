@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Tienda Online</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1>Tu Tienda Online</h1>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#registro">Registro</a></li>
+                    <li><a href="#login">Iniciar Sesión</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="container">
+                <h2>Bienvenido a Nuestra Tienda</h2>
+                <p>Descubre los mejores productos al mejor precio.</p>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+            </div>
+        </section>
+
+        <section id="productos" class="products-section">
+            <div class="container">
+                <h2>Nuestros Productos</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="imagesproduct1.jpg" alt="Producto 1">
+                        <h3>Producto Destacado 1</h3>
+                        <p>Descripción breve del producto 1.</p>
+                        <span class="price">$29.99</span>
+                        <button class="add-to-cart-btn">Agregar al carrito</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="imagesproduct2.jpg" alt="Producto 2">
+                        <h3>Producto Destacado 2</h3>
+                        <p>Descripción breve del producto 2.</p>
+                        <span class="price">$45.50</span>
+                        <button class="add-to-cart-btn">Agregar al carrito</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="imagesproduct3.jpg" alt="Producto 3">
+                        <h3>Producto Destacado 3</h3>
+                        <p>Descripción breve del producto 3.</p>
+                        <span class="price">$15.00</span>
+                        <button class="add-to-cart-btn">Agregar al carrito</button>
+                    </div>
+                     <div class="product-card">
+                        <img src="imagesproduct4.jpg" alt="Producto 4">
+                        <h3>Producto Destacado 4</h3>
+                        <p>Descripción breve del producto 4.</p>
+                        <span class="price">$60.25</span>
+                        <button class="add-to-cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="registro" class="form-section">
+            <div class="container">
+                <h2>Registro de Usuarios</h2>
+                <form action="#" method="POST">
+                    <label for="reg-username">Nombre de usuario:</label>
+                    <input type="text" id="reg-username" name="username" required>
+
+                    <label for="reg-email">Email:</label>
+                    <input type="email" id="reg-email" name="email" required>
+
+                    <label for="reg-password">Contraseña:</label>
+                    <input type="password" id="reg-password" name="password" required>
+
+                    <button type="submit">Registrarse</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="login" class="form-section">
+            <div class="container">
+                <h2>Inicio de Sesión</h2>
+                <form action="#" method="POST">
+                    <label for="login-email">Email:</label>
+                    <input type="email" id="login-email" name="email" required>
+
+                    <label for="login-password">Contraseña:</label>
+                    <input type="password" id="login-password" name="password" required>
+
+                    <button type="submit">Iniciar Sesión</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="contacto" class="contact-section">
+            <div class="container">
+                <h2>Contacto</h2>
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+
+                    <button type="submit">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+
+        </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Tu Tienda Online. Todos los derechos reservados.</p>
+            <nav class="footer-nav">
+                <ul>
+                    <li><a href="#">Trabajá con nosotros</a></li>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Promociones</a></li>
+                    <li><a href="#">Cómo cuidamos tu privacidad</a></li>
+                    <li><a href="#">Accesibilidad</a></li>
+                    <li><a href="#">Información al usuario financiero</a></li>
+                    <li><a href="#">Ayuda</a></li>
+                    <li><a href="#">Defensa del Consumidor</a></li>
+                    <li><a href="#">Información sobre seguros</a></li>
+                    <li><a href="#">Libro de quejas online</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
